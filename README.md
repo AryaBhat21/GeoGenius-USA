@@ -33,7 +33,7 @@ Learn all 50 U.S. states in a fun and interactive way!
 1. **Clone the repository:**
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/AryaBhat21/GeoGenius-USA.git
    cd GeoGenius
    ```
 2. **Install required packages:**

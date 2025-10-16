@@ -25,6 +25,7 @@ while len(guess) < 50:
         new_data = pandas.DataFrame(missed)
         new_data.to_csv("states_to_learn.csv")
         break
+
     #if ans state is 1 of the state in all state of data
         #if user is right:
             #create a turtle write name of the state at state's x n y coor

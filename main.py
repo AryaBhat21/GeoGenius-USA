@@ -16,8 +16,6 @@ guess = []
 
 while len(guess) < 50:
     answer = screen.textinput(title=f"{len(guess)}/50", prompt="What's another state namely?").title()
-
-
     #learning
     if answer == "Exit":
         missed = []
@@ -38,17 +36,5 @@ while len(guess) < 50:
         state = data[data.state == answer]
         t.goto(state.x.item(), state.y.item())
         t.write(answer)
-
-
-
-
 #turtle.mainloop()
-
-
-
-
-
-
-
-
 screen.exitonclick()
